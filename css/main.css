@@ -1,0 +1,105 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: light;
+}
+
+#logo {
+    width: 8rem;
+}
+
+#telephone {
+    width: 1.2rem;
+}
+
+header h5 {
+    color: lightgrey;
+    font-size: .9rem;
+}
+
+header u {
+    color: #636363;
+}
+
+.intro {
+    color: #636363;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.intro h2 {
+    margin: 0;
+}
+
+h4 {
+    font-family: sans-serif;
+    color: #777777
+}
+
+.mainContainer {
+    width: 70rem;
+    border: 2px solid lightgrey;
+    padding: 2rem;
+    margin: auto;
+}
+
+.mainContainer img {
+    width: 13rem;
+}
+
+
+.descriptionInfo {
+    display: -webkit-inline-box;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.descriptionKey {
+    color: darkgrey;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+
+
+button {
+    position: relative;
+    left: 35%;
+    transform: scale(1.2);
+    background: #FFA500;
+    box-shadow: 0px 2px 0px #e29200;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 8px 18px;
+
+}
+
+.checkboxHeader {
+    background: lightgrey;
+    display: -webkit-box;
+    width: 100vw;
+}
+
+.checkboxHeader img {
+    width: 3.5rem;
+}
+
+#downloadIcon {
+    position: relative;
+    left: 35%;
+}
